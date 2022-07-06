@@ -56,12 +56,19 @@ body {
 
 .money {
     text-align: center;
+
 }
 
 .money ul li {
     display: inline-block;
     list-style-type: none;
 
+
+}
+
+.money ul li a {
+    text-decoration: none;
+    color: #968e8e;
 }
 
 /*ul {
@@ -81,6 +88,7 @@ body {
     font-weight: 600;
     color: #707070;
     border-radius: 10px;
+    text-decoration: none;
 
 }
 
@@ -111,6 +119,11 @@ hr {
     margin-bottom: 30px;
 }
 
+.donate-plan-text {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .donate-plan-content {
     display: flex;
     margin-top: 40px;
@@ -128,4 +141,33 @@ hr {
 .plan-image {
     height: 80px;
     width: 80px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-info h1 {
+    font-size: 50px;
+}
+
+.formbox {
+    padding: 50px;
+    background-color: antiquewhite;
+    margin: 40px 250px;
+
+}
+
+.formbox input {
+    padding: 10px 20px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+.formbox button {
+    padding: 10px 20px;
+    border: none;
+    background-color: burlywood;
+    margin-left: -5px;
 }
